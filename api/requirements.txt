@@ -1,0 +1,31 @@
+# Azure Functions Core Tools
+azure-functions==1.18.0
+azure-functions-worker==1.0.0
+
+# Web framework
+fastapi==0.104.1
+uvicorn==0.24.0
+
+# Azure services
+azure-identity==1.15.0
+azure-storage-blob==12.19.0
+
+# OpenAI
+openai==1.3.5
+
+# Data processing
+pandas==2.1.3
+openpyxl==3.1.2
+xlrd==2.0.1
+
+# Validation and models
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# HTTP client
+httpx==0.25.2
+aiofiles==23.2.0
+
+# Utilities
+python-multipart==0.0.6
+sqlparse==0.4.4

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Neo",
+    "role": "The One",
+    "skills": ["Martial Arts", "Code Reading", "Reality Bending"],
+    "level": 100,
+    "active": true
+  },
+  {
+    "id": 2,
+    "name": "Morpheus",
+    "role": "Captain",
+    "skills": ["Leadership", "Red Pill Distribution", "Wisdom"],
+    "level": 95,
+    "active": true
+  },
+  {
+    "id": 3,
+    "name": "Trinity",
+    "role": "Operator",
+    "skills": ["Hacking", "Combat", "Motorcycle Riding"],
+    "level": 90,
+    "active": true
+  },
+  {
+    "id": 4,
+    "name": "Agent Smith",
+    "role": "System Defender",
+    "skills": ["Replication", "Combat", "Matrix Control"],
+    "level": 85,
+    "active": false
+  },
+  {
+    "id": 5,
+    "name": "Cypher",
+    "role": "Traitor",
+    "skills": ["Deception", "Programming", "Steak Appreciation"],
+    "level": 60,
+    "active": false
+  }
+]
