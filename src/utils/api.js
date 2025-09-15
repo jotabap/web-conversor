@@ -1,5 +1,7 @@
 // API utilities for backend communication
-const API_BASE_URL = 'http://localhost:7071/api';
+const API_BASE_URL = process.env.NODE_ENV === 'production' 
+  ? '/api'  // Azure Static Web Apps automatically routes /api to the Functions backend
+  : 'http://localhost:7071/api';
 
 // API endpoints
 export const API_ENDPOINTS = {
